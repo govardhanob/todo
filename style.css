@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ojuju:wght@200..800&family=Titillium+Web:wght@200&display=swap');
+
+
+h1{
+    font-family: "Ojuju", sans-serif;
+    color: darkorchid;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#input1{
+    
+    width: 30%;
+}
+#btn{
+    height: 20%;
+    width: 60px;
+    background-color:#7F27FF ;
+    margin-top: 20px;
+}
+#items{
+    list-style-type: none;
+    width: 70%;
+    
+    
+}
+#dbtn{
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #FDBF60;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+span{
+    max-width: 100%;
+    word-wrap: break-word;
+}
